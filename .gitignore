@@ -1,0 +1,51 @@
+build
+node_modules
+.DS_Store
+
+.env
+.mnemonic
+
+# hh coverage
+coverage
+coverage.json
+
+.coverage_*
+
+# forge coverage
+lcov.info
+forge-coverage
+
+
+cache
+forge-cache
+out
+
+test_results
+typechain-types
+
+tmp
+
+*.csv
+*.json
+
+
+TODO.md
+DUMP.md
+
+# autogen docs
+.wiki/
+
+# Ignores development broadcast logs
+!/broadcast
+/broadcast/*/31337/
+/broadcast/**/dry-run/
+
+
+wiki/
+
+generate-vanity.sh
+
+.parcel-cache/
+dist/
+
+
